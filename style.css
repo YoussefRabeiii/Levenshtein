@@ -24,15 +24,16 @@ body {
 }
 
 .form {
+	margin-block-start: 30px;
 }
 
 .inputs {
 }
 
 .inputBox {
-	margin: 20px;
 	display: flex;
 	flex-direction: column;
+	margin-block-end: 10px;
 }
 
 .form input {
@@ -44,6 +45,7 @@ body {
 }
 
 .buttons {
+	margin-block-start: 30px;
 }
 
 .button {

@@ -51,3 +51,9 @@ const clearForm = () => {
 
 	results.innerHTML = "";
 };
+
+window.addEventListener("keydown", (e) => {
+	if (e.key === "Enter") {
+		handleSubmit();
+	}
+});

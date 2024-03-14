@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Levenshtein</title>
+		<link rel="stylesheet" href="style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h2>Levenshtein</h2>
+			<div class="form">
+				<div class="inputs">
+					<div class="inputBox">
+						<label for="input1">Input 1</label>
+						<input type="text" id="input1" placeholder="Input 1" />
+					</div>
+
+					<div class="inputBox">
+						<label for="input2">Input 2</label>
+						<input type="text" id="input2" placeholder="Input 2" />
+					</div>
+				</div>
+
+				<div class="buttons">
+					<p onclick="handleSubmit()" class="button">Submit</p>
+					<p onclick="clearForm()" class="button">Clear</p>
+				</div>
+			</div>
+
+			<div class="resultsContainer">
+				<h2>Results</h2>
+				<div id="results"></div>
+			</div>
+		</div>
+
+		<script src="Levenshtein.js"></script>
+	</body>
+</html>

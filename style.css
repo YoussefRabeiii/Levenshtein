@@ -1,24 +1,23 @@
 body {
- coloe: black;
 	margin: 0;
 	padding: 0;
 	width: 100vw;
 	height: 100vh;
 	display: flex;
 	color: black;
+	overflow-x: hidden;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	padding-block-start: 30px;
 	background-color: #a7a5e4;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
-	min-width: 50vw;
-	min-height: 50vh;
-	margin: auto;
 	display: flex;
 	padding: 50px;
+	min-width: 50vw;
 	border-radius: 25px;
 	align-items: center;
 	flex-direction: column;
